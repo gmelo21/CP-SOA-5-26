@@ -268,15 +268,3 @@ adapter/out/integration ....... consumo de WebServices externos (ViaCEP)
 adapter/out/security .......... UserDetailsService
 config ........................ segurança, CORS, Swagger e cliente HTTP
 ```
-
-## Entregas por checkpoint
-
-| Checkpoint | Conteúdo | Onde está |
-| --- | --- | --- |
-| CP2 | API ReST com Spring Boot, JPA, Flyway e validação | Todo o projeto |
-| CP3 | CRUD completo de instrutores e alunos | `*Controller`, `*Service`, `*Repository` |
-| CP4 | Cadastro de usuários com senha criptografada, restrições por perfil, troca da própria senha e cancelamento de instruções | `UsuarioController`, `ConfiguracaoDeSeguranca`, `AgendaDeInstrucoes#cancelar` |
-| CP5 | Consumo de WebService externo, Swagger, CORS e testes automatizados | `adapter/out/integration`, `config/documentation`, `config/web`, `src/test` |
-
-> O Checkpoint 1 (WebService SOAP — projeto *Winery*: publisher e consumers) é um projeto
-> separado deste e não faz parte deste repositório.
